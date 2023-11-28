@@ -8,22 +8,22 @@
   },
   "withKernelSU": true,
   "toolchains": [
-    {
-      "repo": "",
-      "branch": "",
-      "name": "",
-      "binPath": []
-    }
+      {
+        "repo": "https://github.com/Akitlove/android-kernel-tools",
+        "branch": "clang13",
+        "name": "clang13",
+        "binPath": ["./bin"]
+      }
   ],
   "params": {
     "ARCH": "arm64",
-    "CC": "",
+    "CC": "clang13/clang/host/linux-x86/clang-r428724/bin/clang",
     "externalCommand": {}
   },
   "AnyKernel3": {
-    "use": false,
-    "release": false,
-    "repo": "",
-    "branch": ""
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/Akitlove/AnyKernel3",
+      "branch": "master"
   }
 }

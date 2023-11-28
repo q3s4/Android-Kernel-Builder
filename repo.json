@@ -4,7 +4,7 @@
     "repo": "https://github.com/LineageOS/android_device_motorola_sm7325-common.git",
     "branch": "lineage-21",
     "device": "xpeng",
-    "defconfig": "xpeng_deconfig"
+    "defconfig": "vendor/lahaina-qgki_defconfig"
   },
   "withKernelSU": true,
   "toolchains": [

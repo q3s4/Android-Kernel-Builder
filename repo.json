@@ -1,0 +1,29 @@
+{
+  "kernelSource": {
+    "name": "lineage-withoutksu",
+    "repo": "https://github.com/LineageOS/android_device_motorola_sm7325-common.git",
+    "branch": "lineage-21",
+    "device": "xpeng",
+    "defconfig": "xpeng_deconfig"
+  },
+  "withKernelSU": true,
+  "toolchains": [
+    {
+      "repo": "",
+      "branch": "",
+      "name": "",
+      "binPath": []
+    }
+  ],
+  "params": {
+    "ARCH": "arm64",
+    "CC": "",
+    "externalCommand": {}
+  },
+  "AnyKernel3": {
+    "use": false,
+    "release": false,
+    "repo": "",
+    "branch": ""
+  }
+}
